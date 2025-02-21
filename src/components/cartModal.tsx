@@ -2,7 +2,7 @@
 
 import { useStore } from "@/src/store/cart";
 import * as Dialog from "@radix-ui/react-dialog";
-import { X } from "lucide-react"; // Іконка хрестика
+import { X } from "lucide-react";
 
 export function CartModal() {
     const { cart, removeItem } = useStore();

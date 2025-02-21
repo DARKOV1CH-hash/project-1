@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ProductCard } from "@/src/components/ProductCard"; 
+import { ProductCard } from "@/src/components/ProductCard";
 
 async function getProductsByCategory(category: string) {
     const res = await fetch(
