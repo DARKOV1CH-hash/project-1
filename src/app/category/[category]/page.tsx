@@ -12,9 +12,7 @@ async function getProductsByCategory(category: string) {
     return res.json();
 }
 
-export default async function CategoryPage({
-                                               params,
-                                           }: {
+export default async function CategoryPage({params,}: {
     params: { category: string };
 }) {
     const products = await getProductsByCategory(params.category);
